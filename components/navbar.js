@@ -79,6 +79,7 @@ const Navbar = props => {
                         alignItems="center"
                         style={{ gap: 4 }}
                         pl={2}
+
                     >
                         <IoConstruct/>
                         Works
@@ -91,6 +92,7 @@ const Navbar = props => {
                         alignItems="center"
                         style={{ gap: 4 }}
                         pl={2}
+
                     >
                         <IoLogoGithub/>
                         Source

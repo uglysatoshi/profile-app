@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import PawIcon from './icons/paw'
+import ArrowIcon from './icons/arrow'
 import styled from '@emotion/styled'
 
-const LogoBox = styled.span`
+const LogoBox = styled.span
+    `
     font-weight: bold;
     font-size: 18px;
     display: inline-flex;
@@ -13,11 +14,11 @@ const LogoBox = styled.span`
     padding: 10px;
     
     > svg {
-    transition: 200ms ease;
+    transition: 500ms ease;
     }
     
     &:hover > svg {
-    transform: rotate(20deg);
+    transform: translateY(-3px);
     }
 `
 
@@ -26,12 +27,12 @@ const Logo = () => {
         (<Link href="/" scroll={false}>
 
             <LogoBox>
-                <PawIcon/>
+                <ArrowIcon/>
                 <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                    fontFamily='M PLUS Rounded 1c", sans-serif'
+                    fontFamily='"M PLUS Rounded 1c", sans-serif'
                     fontWeight="bold"
-                    ml={3}
+                    ml={1}
                 >
                     Satoshi
                 </Text>
