@@ -16,7 +16,6 @@ const Page = () => {
                     <Heading
                         as="h2"
                         variant="page-title"
-                        font-family="'Pixelify Sans', sans-serif"
                     >
                         Koltyga Valery
                     </Heading>
