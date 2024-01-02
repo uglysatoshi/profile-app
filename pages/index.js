@@ -57,7 +57,7 @@ const Page = () => {
                     <BioYear>
                         2003
                     </BioYear>
-                    Born in Nizhmevartovsk, Russia.
+                    Born in Nizhnevartovsk, Russia.
                 </BioSection>
                 <BioSection>
                     <BioYear>
