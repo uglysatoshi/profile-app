@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import thumbContact from '../public/images/works/tba.png'
+import thumbContact from '../public/images/works/tba.jpg'
 
 
 const Works = () => {
