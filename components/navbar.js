@@ -17,6 +17,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub, IoConstruct } from 'react-icons/io5'
+import {forwardRef} from "react";
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
@@ -37,6 +38,10 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
         </Link>
     )
 }
+
+const MenuLink = forwardRef((props, ref) => (
+    <Link ref={ref} as={NextLink} {...props} />
+))
 
 const Navbar = props => {
     const { path } = props
@@ -112,10 +117,10 @@ const Navbar = props => {
                                 aria-label="Options"
                             />
                             <MenuList>
-                                <MenuItem as={Link} href="/">
+                                <MenuItem as={MenuLink} href="/">
                                     About
                                 </MenuItem>
-                                <MenuItem as={Link} href="/works">
+                                <MenuItem as={MenuLink} href="/works">
                                     Works
                                 </MenuItem>
                                 <MenuItem
