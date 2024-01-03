@@ -27,7 +27,7 @@ const Page = () => {
                     ml={{md: 6}}
                     align="center"
                 >
-                    <Image userSelect="none" borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="images/satoshi.gif" alt="Profile Picture"/>
+                    <Image userSelect="none" borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="images/satoshi.png" alt="Profile Picture"/>
                 </Box>
             </Box>
             <Section delay={0.1}>

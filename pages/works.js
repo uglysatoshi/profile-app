@@ -11,22 +11,22 @@ const Works = () => {
                 Works
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
-                <Section>
+                <Section delay={0.1}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.1}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.1}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.1}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
@@ -37,22 +37,22 @@ const Works = () => {
                 Works
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
-                <Section>
+                <Section delay={0.3}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.3}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.3}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.3}>
                     <WorkGridItem id="contact" title="Something" thumbnail={thumbContact}>
                         Something
                     </WorkGridItem>
