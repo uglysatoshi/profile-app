@@ -5,3 +5,4 @@ dist
 .env
 .idea
 out!/out/
+!/out/
