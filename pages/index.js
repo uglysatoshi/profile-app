@@ -1,15 +1,12 @@
 import NextLink from 'next/link'
-import {Container, Box, Heading, useColorModeValue, Link, Button, chakra} from '@chakra-ui/react'
+import {Container, Box, Heading, useColorModeValue, Link, Button} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Image from 'next/image'
-
-const ProfileImage = chakra(Image, {
-    shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
+import profilePicturePath from '../public/images/satoshi.png'
 
 const Page = () => {
     return (
@@ -34,10 +31,10 @@ const Page = () => {
                         ml={{md: 6}}
                         align="center"
                     >
-                        <ProfileImage
-                            src="/images/satoshi.jpg"
+                        <Image
+                            className="profile-picture"
+                            src={profilePicturePath}
                             alt="Profile image"
-                            borderRadius="full"
                             width="100"
                             height="100"
                         />
