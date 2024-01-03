@@ -34,7 +34,7 @@ const Page = () => {
                         align="center"
                     >
                         <ProfileImage
-                            src="/images/satoshi.jpg"
+                            src="images/satoshi.jpg"
                             alt="Profile image"
                             borderRadius="full"
                             width="100"
