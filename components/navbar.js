@@ -27,8 +27,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             href={href}
             scroll={false}
             p={2}
-            bg={active ? useColorModeValue('purple.500', 'orange.200') : undefined}
-            color={active ? useColorModeValue('#f0e7db', '#202023') : inactiveColor}
+            bg={active ? "lightBlue" : undefined}
+            color={active ? "#202023" : inactiveColor}
             target={target}
             borderRadius="0.375rem"
             {...props}
