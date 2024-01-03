@@ -17,6 +17,7 @@ export const GridItem = ({
                 className="grid-item-thumbnail"
                 placeholder="blur"
                 loading="lazy"
+
             />
             <LinkOverlay href={href} target="_blank">
                 <Text mt={2}>{title}</Text>
@@ -59,9 +60,9 @@ export const WorkGridItem = ({
 export const GridItemStyle = () => (
     <Global
         styles={`
-          .grid-item-thumbnail {
-            border-radius: 12px;
-          }
+      .grid-item-thumbnail {
+        border-radius: 12px;
+      }
     `}
     />
 )
