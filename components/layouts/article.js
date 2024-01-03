@@ -9,7 +9,6 @@ const variants = {
 }
 
 const Layout = ({ children, title }) => {
-    const t = `${title} - Koltyga Valery`
     return (
         <motion.article
             initial="hidden"
@@ -22,7 +21,7 @@ const Layout = ({ children, title }) => {
             <>
                 {title && (
                     <Head>
-                        <title>{t}</title>
+                        <title>{title}</title>
                     </Head>
                 )}
                 {children}

@@ -6,13 +6,9 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 
-const ProfileImage = chakra(Image, {
-    shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
-
 const Page = () => {
     return (
-        <Layout>
+        <Layout title="Homepage">
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                     Hello, I&apos;m a beginner full-stack developer based in Russia!
@@ -33,7 +29,7 @@ const Page = () => {
                         ml={{md: 6}}
                         align="center"
                     >
-                        <ProfileImage
+                        <Image
                             src="images/satoshi.jpg"
                             alt="Profile image"
                             borderRadius="full"
