@@ -1,5 +1,14 @@
 import NextLink from 'next/link'
-import {Container, Box, Heading, useColorModeValue, Link, Button} from '@chakra-ui/react'
+import {
+    Container,
+    Box,
+    Heading,
+    useColorModeValue,
+    Link,
+    Button,
+    List,
+    ListItem
+} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -7,6 +16,11 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Image from 'next/image'
 import profilePicturePath from '../public/images/satoshi.png'
+import {
+    BsTelegram,
+    BsGithub,
+    BsLinkedin
+} from 'react-icons/bs'
 
 const Page = () => {
     return (
@@ -93,6 +107,47 @@ const Page = () => {
                         </Link>
                         , Hiking
                     </Paragraph>
+                </Section>
+
+                <Section delay={0.5}>
+                    <Heading as="h3" variant="section-title">
+                        Find me
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://github.com/uglysatoshi" target="_blank">
+                                <Button
+                                    variant="ghost"
+                                    colorScheme="blue"
+                                    leftIcon={<BsGithub/>}
+                                >
+                                    @uglysatoshi
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://t.me/uglysatoshi" target="_blank">
+                                <Button
+                                    variant="ghost"
+                                    colorScheme="blue"
+                                    leftIcon={<BsTelegram/>}
+                                >
+                                    @uglysatoshi
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.linkedin.com/in/valery-koltyga" target="_blank">
+                                <Button
+                                    variant="ghost"
+                                    colorScheme="blue"
+                                    leftIcon={<BsLinkedin/>}
+                                >
+                                    Valery Koltyga
+                                </Button>
+                            </Link>
+                        </ListItem>
+                    </List>
                 </Section>
             </Container>
         </Layout>
