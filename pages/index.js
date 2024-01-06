@@ -7,7 +7,7 @@ import {
     Link,
     Button,
     List,
-    ListItem
+    ListItem, Divider
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -147,6 +147,7 @@ const Page = () => {
                         </ListItem>
                     </List>
                 </Section>
+                <Divider my={6} />
             </Container>
         </Layout>
     )
