@@ -5,6 +5,8 @@ export const Profile = () => (
         styles={`
       .profile-picture {
         border-radius: 100%;
+        width: 100px;
+        height: 100px;
       }
     `}
     />

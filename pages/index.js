@@ -49,8 +49,6 @@ const Page = () => {
                             className="profile-picture"
                             src={profilePicturePath}
                             alt="Profile image"
-                            width="100"
-                            height="100"
                         />
                     </Box>
                 </Box>
