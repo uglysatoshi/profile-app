@@ -7,7 +7,7 @@ const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>
             <Head>
-                <link rel="icon" href="/ico.png"/>
+                <link rel="icon" href="ico.png"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
 
