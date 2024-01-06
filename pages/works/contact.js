@@ -5,7 +5,8 @@ import {
     List,
     ListItem,
     Heading,
-    Center, Divider
+    Center,
+    Divider
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -49,8 +50,8 @@ const Work = () => (
             <Heading as="h4" fontSize={20} my={6}>
                 <Center>Some layouts</Center>
             </Heading>
-            <WorkImage src="/images/works/contact_1.jpg" alt="contact" />
-            <WorkImage src="/images/works/contact_2.jpg" alt="contact" />
+                <WorkImage src="../images/works/contact_1.jpg" alt="contact" />
+                <WorkImage src="../images/works/contact_2.jpg" alt="contact" />
             <Divider my={6} />
         </Container>
     </Layout>
