@@ -54,12 +54,13 @@ const Page = () => {
                 </Box>
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        Work
+                        About
                     </Heading>
                     <Paragraph>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium sagittis quam, nec bibendum ex consequat vitae. Nam tincidunt leo mi, nec elementum sem sodales eget. Maecenas mollis consequat lorem eget mollis. Fusce vehicula tempor erat vel varius. Nulla vitae nulla dignissim, viverra purus quis, consectetur lacus.
-                        {' '} <Link as={NextLink} href="https://github.com" passHref scroll={false}>Quisque</Link> {' '}
-                        feugiat bibendum sodales. Donec in leo justo. Nullam convallis est sed felis consectetur, sed porttitor enim tempus. Cras ut risus tristique, eleifend justo eget, luctus mauris. Duis a pellentesque quam, nec cursus elit. Vivamus ac quam lobortis diam aliquam scelerisque id vel ligula. Nam sed dolor euismod, pretium neque ultricies, dapibus lectus.
+                        An enthusiast in the field of web programming and freelancing in the same field. I also study at St. Petersburg State University of Industrial Technologies and Design.
+                    </Paragraph>
+                    <Paragraph>
+                        I’m trying to improve my skills in algorithms and data structures and am actively looking for my first job in IT.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <Link as={NextLink} href="/works" >
