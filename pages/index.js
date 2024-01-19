@@ -60,7 +60,7 @@ const Page = () => {
                         An enthusiast in the field of web programming and freelancing in the same field. I also study at St. Petersburg State University of Industrial Technologies and Design.
                     </Paragraph>
                     <Paragraph>
-                        I’m trying to improve my skills in algorithms and data structures and am actively looking for my first job in IT.
+                        I’m trying to improve my skills in algorithms and data structures and actively looking for my first job in IT.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <Link as={NextLink} href="/works" >
